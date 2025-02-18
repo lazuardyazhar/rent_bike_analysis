@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.ticker import FuncFormatter
 
-data_day = pd.read_csv("../Dataset/day.csv")
-data_hour = pd.read_csv("../Dataset/hour.csv")
+data_day = pd.read_csv("./Dataset/day.csv")
+data_hour = pd.read_csv("./Dataset/hour.csv")
 
 data_day['dteday'] = pd.to_datetime(data_day['dteday'])
 
